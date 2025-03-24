@@ -469,7 +469,6 @@
 
 // myFunction();
 
-
 // const numbers = [2,4,6,8,10,12,14,16,18,20];
 
 // let text = "";
@@ -531,14 +530,6 @@
 // const d = new Date();
 // d.setFullYear(2025);
 // console.log(d);
-
-
-// setInterval(myFunction,1000);
-
-// function myFunction(){
-//     let d = new Date();
-//     console.log(d.getHours(), ":",d.getMinutes(), "(",d.getSeconds(), ")");
-// }
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // let fLen = fruits.length;
@@ -604,10 +595,26 @@
 //     return value < 18;
 // }
 
-
 // const cars = ["Saab", "Volvo", "BMW"];
 
 // cars[0] = "Toyota";
 
 // cars.push("Volvo");
 // console.log(cars);
+
+
+// const s = function(v){
+//     for(let v = 5; v < 10; v++){
+//         console.log(v);
+        
+//     }
+
+//     return v
+// }
+// s()
+
+setInterval(myFunction,1000);
+function myFunction(){
+    let d = new Date();
+    console.log(d.getHours(), ":",d.getMinutes(), "(",d.getSeconds(), ")");
+}
